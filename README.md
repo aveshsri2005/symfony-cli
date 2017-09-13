@@ -1,6 +1,4 @@
-******************************
-** bank-account-application **
-******************************
+#Bank Application in Symfony CLI
 
 
 Application Setup
