@@ -1,0 +1,19 @@
+
+        //$io->section('Validating account details..');
+        // $io->table(
+        //     array('Header 1', 'Header 2'),
+        //     array(
+        //         array('Cell 1-1', 'Cell 1-2'),
+        //         array('Cell 2-1', 'Cell 2-2'),
+        //         array('Cell 3-1', 'Cell 3-2'),
+        //     )
+        // );
+        // $io->note(array(
+        //     'Lorem ipsum dolor sit amet',
+        //     'Consectetur adipiscing elit',
+        //     'Aenean sit amet arcu vitae sem faucibus porta',
+        // ));
+        //$io->caution('Lorem ipsum dolor sit amet');
+        //$value   =  $io->choice('Select the queue to analyze', array('queue1', 'queue2', 'queue3'), 'queue1');
+        //echo ">>>>>". $value;
+

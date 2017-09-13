@@ -1,0 +1,41 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/service_container.html
+parameters:
+#    parameter_name: value
+
+services:
+
+    console_command.open_account:
+        class: AppBundle\Command\OpenAccountCommand
+        arguments:
+            - "@doctrine.orm.default_entity_manager"
+        tags:
+            -  { name: console.command }
+
+    console_command.deposit_fund:
+        class: AppBundle\Command\DepositFundCommand
+        arguments:
+            - "@doctrine.orm.default_entity_manager"
+        tags:
+            -  { name: console.command }
+
+    console_command.withdraw_fund:
+        class: AppBundle\Command\WithdrawFundCommand
+        arguments:
+            - "@doctrine.orm.default_entity_manager"
+        tags:
+            -  { name: console.command }
+
+    console_command.display_balance:
+        class: AppBundle\Command\DisplayBalanceCommand
+        arguments:
+            - "@doctrine.orm.default_entity_manager"
+        tags:
+            -  { name: console.command }
+
+    console_command.close_account:
+        class: AppBundle\Command\CloseAccountCommand
+        arguments:
+            - "@doctrine.orm.default_entity_manager"
+        tags:
+            -  { name: console.command }
